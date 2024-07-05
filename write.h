@@ -1,0 +1,1 @@
+void writetofile(char *s);

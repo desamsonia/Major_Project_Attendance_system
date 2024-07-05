@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "delay.o" "i2c.o" "i2c_eeprom.o" "lcd.o" "rtc.o" "uart.o" "keypad.o" "file.o" "ext_int.o" --strict --scatter "rfid_reader.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\rfid_reader.map" -o "rfid_reader.axf"
